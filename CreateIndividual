@@ -8,13 +8,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import com.framework.selenium.api.design.Locators;
-import com.framework.testng.api.base.ProjectSpecificMethods;
+import com.framework.testng.api.base.SFMethods;
 
 import groovy.cli.CliBuilderException;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import junit.framework.Assert;
 
-public class CreateIndividual extends ProjectSpecificMethods {
+public class CreateIndividual extends SFMethods {
 
 		public CreateIndividual enterSurName(String surName) {
 
