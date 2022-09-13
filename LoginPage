@@ -4,9 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Parameters;
 
 import com.framework.selenium.api.design.Locators;
-import com.framework.testng.api.base.ProjectSpecificMethods;
+import com.framework.testng.api.base.SFMethods;
 
-public class LoginPage extends ProjectSpecificMethods{
+public class LoginPage extends SFMethods{
 	
 	public LoginPage enterUsername(String data) {
 
