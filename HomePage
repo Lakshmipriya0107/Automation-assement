@@ -1,9 +1,9 @@
 package com.leaftaps.pages;
 
 import com.framework.selenium.api.design.Locators;
-import com.framework.testng.api.base.ProjectSpecificMethods;
+import com.framework.testng.api.base.SFMethods;
 
-public class HomePage extends ProjectSpecificMethods{
+public class HomePage extends SFMethods{
 		
 	public SFIndividualPage verifyHomePage() {
 		verifyDisplayed(locateElement(Locators.CLASS_NAME, "slds-icon-waffle"));
