@@ -5,7 +5,7 @@
   <parameter name="browser" value= "chrome" />
   <parameter name="url" value="https://login.salesforce.com/"></parameter>
     <classes>
-      <class name="com.leaftaps.testcases.AssessmentSFIndividuals"/>
+      <class name="com.leaftaps.testcases.SFIndividuals"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
